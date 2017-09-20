@@ -8,3 +8,6 @@ composer install
 php artisan key:generate
 Create a database and inform .env
 php artisan migrate to create tables
+
+How I did it?
+"Reused existing repository that I found on GitHub. Created new tables in MySQL (PHP My Admin) updated composer. Then performed the migration. After that created .env for authentication. "
